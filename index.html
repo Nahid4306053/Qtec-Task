@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.3.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.3.0/css/sharp-solid.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.3.0/css/sharp-regular.css"
+    />
+    <title>Happy Coaching</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.1/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            sm: "480px",
+            md: "768px",
+            lg: "1024px",
+            xl: "1260px",
+            "2xl": "1440px",
+          },
+          container: {
+            padding: {
+              DEFAULT: "1rem",
+              sm: "2rem",
+              lg: "2rem",
+              xl: "3rem",
+              "2xl": "4rem",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!-- Navba section   -->
+    <div class="drawer  w-full ">
+      <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
+      <div class="drawer-content flex flex-col">
+        <!-- Navbar -->
+        <div class="w-full navbar px-0 lg:px-2  xl:px-10  container mx-auto ">
+        
+          <div class="flex-1 px-2 mx-2">
+            <img class="h-8" src="/images/logo.png" alt="logo" />
+          </div>
+          <div class="flex-none hidden lg:block">
+            <ul class="menu menu-horizontal text-lg text-slate-500">
+              <!-- Navbar menu content here -->
+              <li><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>About Us</a></li>
+              <li><a>Extara Salespage</a></li>
+              <button
+                class="bg-teal-500 hover:bg-teal-500 text-white btn font-semibold px-10"
+              >
+                Get Your free guide Now
+              </button>
+            </ul>
+          </div>
+            <div class="flex-none lg:hidden">
+            <label
+              for="my-drawer-3"
+              aria-label="open sidebar"
+              class="btn btn-square btn-ghost"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                class="inline-block w-6 h-6 stroke-current"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                ></path>
+              </svg>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="drawer-side z-[999]">
+        <label
+          for="my-drawer-3"
+          aria-label="close sidebar"
+          class="drawer-overlay"
+        ></label>
+        <ul class="menu p-4 w-80 min-h-full bg-base-200">
+          <!-- Sidebar content here -->
+          <li><a>Sidebar Item 1</a></li>
+          <li><a>Sidebar Item 2</a></li>
+        </ul>
+      </div>
+    </div> 
+
+    <!-- Navba section   -->
+
+    <!-- Hero Section  -->
+    <div class="container   hero-banner min-h-[90vh] py-20 flex mx-auto">
+      <div class="flex lg:flex-row flex-col gap-10">
+        <div class="flex-1 order-1 space-y-6 lg:order-0">
+          <img src="/images/target (2).png" alt="" />
+          <br />
+
+          <h5 class="text-slate-400">
+            Proven strategies backed by science for success.
+          </h5>
+          <h1 class="text-[#333461] text-7xl font-extrabold">
+            Live life at the full potential
+          </h1>
+          <p class="text-slate-600 text-lg leading-8">
+            I help people to discover their true potential and live a fulfilling
+            life... Discover the simple 3 steps that I discovered to hack
+            productivity. It just works and it is begin using backed by science.
+            Wanna transform your life?
+          </p>
+          <button
+            class="bg-teal-500 hover:bg-teal-500 text-lg text-white btn font-semibold px-10"
+          >
+            Get Your free guide Now
+          </button>
+        </div>
+        <div
+          class="flex-1 order-0 relative lg:order-1 flex py-5 items-center justify-center lg:justify-end"
+        >
+          <div class="relative">
+            <img src="/images/hero-women.png" class="" alt="hero-women" />
+            <div
+              class="target absolute lg:-left-[50px]  -top-[30px] bg-white h-20 px-5 flex gap-2"
+            >
+              <div>
+                <img src="/images/target (1).png" alt="" />
+              </div>
+              <div class="content">
+                <h2 class="text-3xl font-extrabold text-[#333461]">100%</h2>
+                <span class="text-xs">Success Rate this year</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Hero Section  -->
+
+    <!-- Particular area section  -->
+    <div class="container mx-auto mt-10 my-20">
+      <div class="flex lg:flex-row flex-col gap-5">
+        <div class="flex-1">
+          <img src="/images/Vector.png" alt="vector" />
+          <br />
+          <h1 class="section-title">
+            I can help you in these particular areas.
+          </h1>
+        </div>
+        <div class="flex-1">
+          <p class="text-lg leading-8">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua minim
+            veniam.
+            <br />
+            <br />
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo.
+          </p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 mt-10 gap-16 md:grid-cols-2 lg:grid-cols-3">
+        <div class="card_item p-5">
+          <img src="/images/mobile.png" alt="" />
+          <div class="content mt-7 space-y-3">
+            <h3 class="font-bold text-2xl">1:1 Coaching</h3>
+            <p class="text-slate-500 text-lg">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua minim
+              veniam.
+            </p>
+          </div>
+        </div>
+        <div class="card_item p-5">
+          <img src="/images/text-messsage.png" alt="" />
+          <div class="content mt-7 space-y-3">
+            <h3 class="font-bold text-2xl">Consultation</h3> 
+            <p class="text-slate-500 text-lg">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua minim
+              veniam.
+            </p>
+          </div>
+        </div>
+        <div class="card_item p-5">
+          <img src="/images/human.png" alt="" />
+          <div class="content mt-7 space-y-3">
+            <h3 class="font-bold text-2xl">Group Coaching Session</h3>
+            <p class="text-slate-500 text-lg">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua minim
+              veniam.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Particular area section  -->
+
+    <!-- Testimonial section  -->
+    <div class="container mx-auto my-32">
+      <div class="title">
+        <h1 class="section-title lg:mx-0 mx-auto text-center lg:text-start  max-w-2xl">
+          Hear out what my clients say about me.
+        </h1>
+      </div>
+      <div class="grid grid-cols-1 mt-16 gap-14 md:grid-cols-2 lg:grid-cols-3">
+        <div class="p-5 card-item cursor-pointer group">
+          <div class="mesage">
+            <h3 class="text-2xl text-[#4A556C]">
+              "I gained so much
+              <span class="group-hover:font-bold">confidence</span> in my
+              ability to connect and deepen my relationships with people. "
+            </h3>
+            <div class="client mt-5">
+              <div class="name space-y-5">
+                <h5 class="text-[#4A556C] font-bold text-2xl">Jane</h5>
+                <img src="/images/avatar-1.png" alt="" />
+              </div>
+              <div
+                class="starts text-lg mt-3 group-hover:text-yellow-400 text-slate-300"
+              >
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-5 card-item cursor-pointer group">
+          <div class="mesage">
+            <h3 class="text-2xl text-[#4A556C]">
+              "I gained so much
+              <span class="group-hover:font-bold">confidence</span> in my
+              ability to connect and deepen my relationships with people. "
+            </h3>
+            <div class="client mt-5">
+              <div class="name space-y-5">
+                <h5 class="text-[#4A556C] font-bold text-2xl">Catherine</h5>
+                <img src="/images/avatar-2.png" alt="" />
+              </div>
+              <div
+                class="starts text-lg mt-3 group-hover:text-yellow-400 text-slate-300"
+              >
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-5 card-item cursor-pointer group">
+          <div class="mesage">
+            <h3 class="text-2xl text-[#4A556C]">
+              "I gained so much
+              <span class="group-hover:font-bold">confidence</span> in my
+              ability to connect and deepen my relationships with people. "
+            </h3>
+            <div class="client mt-5">
+              <div class="name space-y-5">
+                <h5 class="text-[#4A556C] font-bold text-2xl">Jane</h5>
+                <img src="/images/avatar-3.png" alt="" />
+              </div>
+              <div
+                class="starts text-lg mt-3 group-hover:text-yellow-400 text-slate-300"
+              >
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Testimonial section  -->
+
+    <!-- blog Section  -->
+    <div class="container mx-auto my-32">
+      <div class="title w-full mb-20">
+        <h1 class="section-title text-center mx-auto max-w-2xl">
+          Stay Motivated, read the weekly blog articles.
+        </h1> 
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
+        <div class="card rounded-none bg-white shadow-lg">
+          <figure>
+            <img src="/images/blog-1.png" class="w-full" alt="blog" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title text-2xl font-extrabold text-[#333461]">
+              Balancing your love and work life.
+            </h2>
+            <p class="text-lg">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua minim
+              veniam.
+            </p>
+          </div>
+        </div>
+        <div class="card rounded-none bg-white shadow-lg">
+          <figure>
+            <img src="/images/blog-2.png" class="w-full" alt="blog" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title text-2xl font-extrabold text-[#333461]">
+              A short break from Social Media is important.
+            </h2>
+            <p class="text-lg">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua minim
+              veniam.
+            </p>
+          </div>
+        </div>
+        <div class="card rounded-none bg-white shadow-lg">
+          <figure>
+            <img src="/images/blog-3.png" class="w-full" alt="blog" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title text-2xl font-extrabold text-[#333461]">
+              How to be 1% Better Every Day
+            </h2>
+            <p class="text-lg">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua minim
+              veniam.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex justify-center items-center mt-10 ">
+        <button class="bg-teal-500 hover:bg-teal-500 text-white btn px-10 mt-5 text-lg" > Ream More Blogs </button>
+      </div>
+    </div>
+    <!-- blog Section  -->
+
+    <!-- Free Guide sectionn  -->
+    <div class="container mx-auto my-32">
+      <div class="flex lg:flex-row flex-col gap-16">
+        <div class="flex-1 text-center lg:text-start order-1 space-y-6 lg:order-0">
+          <h1 class="section-title">
+            Don’t miss out on my ‘Live life at the full potential’ free guide
+          </h1>
+          <p class="text-slate-600 text-xl leading-8">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua minim
+            veniam.
+          </p>
+          <p class="text-slate-600">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo.
+          </p>
+          <button
+            class="bg-teal-500 hover:bg-teal-500 text-lg text-white btn font-semibold px-10"
+          >
+            Get Your free guide Now
+          </button>
+        </div>
+        <div
+          class="flex-1 order-0 relative lg:order-1 flex min-h-[650px] justify-center  lg:justify-end"
+        >
+          <div class="relative">
+            <div
+              class="badege flex justify-center items-center font-bold text-center p-1 text-white h-28 w-28 absolute rounded-full md:-right-14 right-0  -top-14 bg-teal-500"
+            >
+              <h3>Free Guide!</h3>
+            </div>
+            <img src="/images/ad-banner.png" class="" alt="hero-women" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Free Guide sectionn  -->
+
+    <!-- Meet banner -->
+
+    <div class="container mb-32 mx-auto">
+      <div class="flex lg:flex-row flex-col items-center gap-16">
+        <div class="flex-1 order-1 text-center lg:text-start space-y-8 lg:order-0">
+          <h1 class="text-4xl font-extrabold text-[#333461]">
+            Get 15-Minutes Complimentary online session.
+          </h1>
+          <p class="text-slate-600 text-xl leading-8">
+            Limited Period Offer. Claim Now.
+          </p>
+          <button class="bg-teal-500 hover:bg-teal-500 text-lg text-white btn font-semibold px-10" > Book Now </button>
+        </div>
+        <div class="flex-1 order-0 relative lg:order-1 flex items-start justify-center  lg:justify-end" >
+          <div class="relative">
+            <img src="/images/meet-women.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="newsletter lg:flex-row flex-col container  mx-auto mb-12 flex items-center">
+      <div class="flex-1 lg:text-start text-center space-y-4">
+        <h1 class="text-3xl font-extrabold text-[#333461]">
+          Get notified when I publish new articles
+        </h1>
+        <p class="text-slate-400 text-lg leading-8">
+          Stay up to date with the latest news, announcements, and articles.
+        </p>
+      </div>
+
+      <div class="flex-1 flex justify-end gap-5 mt-10 lg:mt-0">
+        <input
+          type="text"
+          placeholder="Enter Your Email"
+          class="input input-bordered w-full max-w-xs"
+        />
+        <button
+          class="bg-teal-500 hover:bg-teal-500 text-lg text-white btn font-semibold"
+        >
+          Subscribe
+        </button>
+      </div>
+    </div>
+    <!-- Meet banner -->
+
+    <!-- footer  -->
+    <footer class="footer  p-0">
+      <div class="container mx-auto py-16 pb-20   ">
+        <div class="grid w-full justify-between grid-cols-1 gap-8 md:grid-cols-3">
+          <div class="log"> 
+            <img src="/images/logo.png" alt="logo" class="h-10" />
+            <p class="text max-w-xs text-lg text-slate-400 mt-5 "> Design amazing digital experiences that create more happy in the world. </p>
+          </div>
+          <div class="pages text-lg ">
+            <h3 class="font-bold text-[#333461]">Pages</h3>     
+            <ul class="space-y-3 mt-6  text-slate-400">
+              <li><a href="">Home</a></li>
+              <li><a href="">Services</a></li>
+              <li><a href="">About us</a></li>
+              <li><a href="">Extra Sales/Lading page </a></li>
+              <li><a href="">Free Guide</a></li>
+            </ul>   
+          </div>          
+          <div class="pages text-lg ">
+            <h3 class="font-bold text-[#333461]">Contact</h3>     
+            <ul class="space-y-3 mt-6  text-slate-400">
+              <li><a href="">+123 456 789 </a></li>
+              <li><a href="">hello@happydigital.nl</a></li>
+              <li><a href="">Instagram</a></li>
+              <li><a href="">LinkedIn</a></li>
+            </ul>   
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer  -->
+  </body>
+</html>
